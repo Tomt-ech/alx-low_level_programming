@@ -2,7 +2,6 @@
 #include <unistd.h>
 
 /**
- *
  * main - Entry point
  * Description: To tell the details of what you're doing
  * Return: Always 1
