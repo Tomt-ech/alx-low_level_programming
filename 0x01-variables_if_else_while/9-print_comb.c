@@ -8,16 +8,17 @@
  */
 int main(void)
 {
-		int n = '0';
+		int n;
 
-		while (n <= '9')
+		for (n = 48; n < 57; c++)
 			{
 				putchar(n);
-		if (n != '9')
+		if (n != 57)
 		{
 			putchar(',');
-			putchar(' ');																		}
-			n++;
+			putchar(' ');
+		}
+	
 			}
 		putchar('\n');
 
