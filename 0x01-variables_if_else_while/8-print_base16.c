@@ -7,18 +7,15 @@
  * Return: 0
  */
 int main(void)
-{
-	int ch;
-	char c;
 
-	for (ch = 'o'; ch <= '9'; ch++)
-	{
-		putchar(ch);
-	}
-	for (c = 'a'; c <= 'f'; c++)
-	{
-		putchar(c);
-	}
+{
+	int num;
+	char letter;
+
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }
