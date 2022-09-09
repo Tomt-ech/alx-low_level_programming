@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - The entry point 
+ * main - The entry point
  *
  * Description: The program details
  * Return: 0
@@ -9,14 +9,17 @@
 
 int main(void)
 {
-	char letter;
+	char alpha = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		{
-			if (letter != 'e' && letter != 'q')
-		putchar(letter);
-		}
-
+		while (alpha <= 'z')
+			{
+				if ((alpha != 'q') && (alpha != 'e'))
+					{
+						putchar(alpha);
+					}
+			alpha++;
+			}
 			putchar('\n');
+
 			return (0);
 }
