@@ -3,8 +3,8 @@
 /**
  * main - the entry point
  *
- * Description: a function that prints the alphabet, in lowercase, followed by a new line
- * Return(0)
+ * Description: a function that prints the alphabet, in lowercase
+ * Return: 0
  */
 
 void print_alphabet(void)
