@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/** main - the entry point
+/**
+ * main - the entry point
  *
- * Description: Write a program that prints the first 50 Fibonacci numbers,
+ * main: Write a program that prints the first 50 Fibonacci numbers,
  * starting with 1 and 2, followed by a new line.
  *
  * Return: Always 0
