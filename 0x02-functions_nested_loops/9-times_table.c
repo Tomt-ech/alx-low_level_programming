@@ -1,8 +1,7 @@
-#include "main"
+#include "main.h"
 
-/** main - the entry point
- *
- * Description: The program details
+/** 
+ * times_table - function that prints the 9 times table, starting with 0
  * Return: 0
  */
 

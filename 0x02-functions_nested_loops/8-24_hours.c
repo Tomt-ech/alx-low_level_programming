@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - the entry point
- *
- * Description: The program details
+ * jack_bauer - function that prints every minute of the day of Jack Bauer
  * Return: 0
  */
 
