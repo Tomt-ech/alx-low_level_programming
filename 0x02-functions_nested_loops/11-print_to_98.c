@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 
 /**
- * main - the entry point
- *
- * Description: The program details
+ * print_to_98 -  function that prints all natural numbers from n to 98
+ * @n: The number to begin counting at.
  * Return: 0
  */
 
