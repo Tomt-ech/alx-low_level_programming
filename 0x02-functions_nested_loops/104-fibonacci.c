@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - program that finds and prints the first 98 Fibonacci numbers, 
+ * main - program that finds and prints the first 98 Fibonacci numbers,
  * starting with 1 and 2, followed by a new line.
  *
  * Return: 0
@@ -48,6 +48,6 @@ int main(void)
 				fib2_half2 = half2;
 		}
 		printf("\n");
-		
+
 		return (0);
 }
