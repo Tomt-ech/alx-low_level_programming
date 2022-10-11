@@ -5,14 +5,11 @@
 /**
  * print_dog - prints a struct dog
  * @d: struct dog to print
- *
- * Return: the result.
  */
-
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
-		return;
+		return (NULL);
 
 	if (d->name == NULL)
 		d->name = "(nil)";
